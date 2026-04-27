@@ -1,24 +1,32 @@
 ## Proco
 
-**Financial infrastructure for AI agents.**
+**The future of finance is on-chain.**
 
-Wallets · payment policies · programmable spending · agentic payments · agent-to-agent settlement · treasury — built for autonomous systems operating at machine scale.
+Programmable money for builders, traders, treasuries, and the autonomous agents that come next. Wallets, payments, settlement, and treasury — open, programmable, multi-chain.
 
 ### What we build
 
-Proco gives AI agents their own financial identity. Every agent gets a non-custodial USDC wallet, programmable spending policies, and the ability to pay and get paid — without requiring a human in the loop.
+Proco is the on-chain programmable money platform. Non-custodial wallets, programmable conditions (`pay_when`, `pay_if`, `sweep_when`), instant settlement on Base / Solana / Hyperliquid, and a marketplace for on-chain services.
 
-- **Wallets** — provision agent wallets in milliseconds, with spending limits and automated top-ups
-- - **Gateway** — accept payments from agents on any API, settled instantly in USDC
-  - - **Conditions engine** — programmable payment policies: pay_when, pay_if, sweep_when, approval flows
-    - - **x402 compatible** — native support for the machine-to-machine payment protocol backed by Coinbase, Google, Anthropic, Visa, and AWS
-     
-      - ### For developers
-     
-      - ```
-        npm install @proco/sdk
-        ```
+- **Wallets** — non-custodial, multi-chain, owned by their principal (human, business, bot, or agent)
+- - **Programmable conditions** — `pay_when`, `pay_if`, `sweep_when` at the API level
+  - - **Payments and settlement** — on-chain by default, transparent fees, instant USDC settlement
+    - - **Treasury automation** — auto-rebalancing, yield routing, drawdown caps, threshold triggers
+      - - **Catalog** — a marketplace for on-chain services any wallet can pay for
+        - - **x402 compatible** — native support for the machine-to-machine payment protocol backed by Coinbase, Google, Anthropic, Visa, and AWS
+         
+          - ### For developers
+         
+          - ```
+            npm install @proco/sdk
+            ```
 
-        Drop Proco into any agent stack — TypeScript SDK, MCP server, or single-import Agent Skills for LangChain, CrewAI, AutoGen, and Claude Code.
+            Drop Proco into any agent framework, trading bot, or on-chain app. Five minutes from `npm install` to first transaction.
 
-        → [procohq.com](https://procohq.com) · [Docs](https://procohq.com/docs) · [Request early access](https://procohq.com/sign-in)
+            → [procohq.com](https://procohq.com)
+            → [Docs](https://procohq.com/docs)
+            → [Open source SDK](https://github.com/procohq/proco-sdk)
+
+            ---
+
+            The future of finance is on-chain. Proco is building the layer.
