@@ -1,32 +1,30 @@
 ## Proco
 
-**The future of finance is on-chain.**
+**On-chain capital markets infrastructure.**
 
-Programmable money for builders, traders, treasuries, and the autonomous agents that come next. Wallets, payments, settlement, and treasury — open, programmable, multi-chain.
+Proco builds at two layers of the financial market infrastructure (FMI) stack: a professional trading terminal above $170B+/month in Hyperliquid perpetual volume, and programmable settlement conditions on USDC — the cash layer powering tokenised assets, RWA markets, and institutional on-chain capital flows.
 
 ### What we build
 
-Proco is the on-chain programmable money platform. Non-custodial wallets, programmable conditions (`pay_when`, `pay_if`, `sweep_when`), instant settlement on Base / Solana / Hyperliquid, and a marketplace for on-chain services.
+Bundle 2 — the institutional engine room of capital allocation — is moving on-chain. Proco operates at Layer 0 (access & gateways) and Layer 4 (wholesale cash asset) of the FMI stack.
 
-- **Wallets** — non-custodial, multi-chain, owned by their principal (human, business, bot, or agent)
-- - **Programmable conditions** — `pay_when`, `pay_if`, `sweep_when` at the API level
-  - - **Payments and settlement** — on-chain by default, transparent fees, instant USDC settlement
-    - - **Treasury automation** — auto-rebalancing, yield routing, drawdown caps, threshold triggers
-      - - **Catalog** — a marketplace for on-chain services any wallet can pay for
-        - - **x402 compatible** — native support for the machine-to-machine payment protocol backed by Coinbase, Google, Anthropic, Visa, and AWS
-         
-          - ### For developers
-         
-          - ```
-            npm install @proco/sdk
-            ```
+- **Lattice** — the professional trading terminal for on-chain commodity and RWA perpetuals on Hyperliquid HIP-3. Like IBKR above CME, Lattice is the Layer 0 gateway: routing institutional volume through Hyperliquid's execution venues and earning 5 bps per trade, on-chain, no permission required. The Bloomberg Terminal layer for on-chain commodities.
+- **Proco SDK** — programmable conditions on USDC at Layer 4. Spending caps, counterparty whitelists, time-locked releases, threshold triggers. The same control as institutional settlement infrastructure — on-chain, open, and composable.
+- **Gateway** — programmable settlement for protocol operators, capital desks, and API providers routing USDC settlement
+- **Catalog** — on-chain financial services marketplace; any Proco principal discovers, pays for, and integrates services autonomously
 
-            Drop Proco into any agent framework, trading bot, or on-chain app. Five minutes from `npm install` to first transaction.
+### For developers
 
-            → [procohq.com](https://procohq.com)
-            → [Docs](https://procohq.com/docs)
-            → [Open source SDK](https://github.com/procohq/proco-sdk)
+```
+npm install @proco/sdk
+```
 
-            ---
+Non-custodial. Multi-chain: Hyperliquid, Base, Solana. Open source.
 
-            The future of finance is on-chain. Proco is building the layer.
+→ [procohq.com](https://procohq.com)
+→ [Docs](https://procohq.com/docs)
+→ [Open source SDK](https://github.com/procohq/proco-sdk)
+
+---
+
+The engine room of capital allocation is moving on-chain. Proco is building the layer.
